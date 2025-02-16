@@ -66,7 +66,7 @@ This doesn't only work for V, but for any special character you input that doesn
 # Short FAQ For Newbies
 
 ### What Is Cicada 3301, Liber Primus, etc?
-Cicada 3301 is a mysterious group that became known for posting complex puzzles online, starting in 2012. These puzzles challenged participants with cryptography & steganography. The group's ultimate purpose remains unclear, but as mentioned in the beginning of each puzzle, they mentioned looking for "highly intelligent individuals".
+Cicada 3301 is a mysterious group that became known for posting complex puzzles online, starting in 2012. These puzzles challenged participants with cryptography & steganography. The group's ultimate purpose remains unclear, but as mentioned in the beginning of each puzzle, they are looking for "highly intelligent individuals".
 
 You can read more about Cicada 3301 on [The Uncovering Cicada Fandom](https://uncovering-cicada.fandom.com/wiki/Uncovering_Cicada_Wiki), which also includes attempts at solving Liber Primus, Cicada's latest unresolved puzzle from 2014.
 
