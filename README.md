@@ -7,22 +7,22 @@ This script requires Python 3.6 or higher. No additional libraries need to be in
 # How To Run
 1. **Open a terminal**
 - On *Windows*, press *Win + R*, then type *"cmd"* and hit *Enter*.
-- On Mac/Linus, open the Terminal application.
+- On Mac/Linux, open the Terminal application.
 
-2. Navigate to the script's directory, e.g. where you saved it.
+2. **Navigate to the script's directory, e.g. where you saved it.**
 - If the file *gematria_calc.py* is located on your desktop, type the following command:
 ```
 cd %UserProfile%\Desktop
 ```
 
-3. Run the script.
+3. **Run the script.**
 ```
 python gematria_calc.py
 ```
 
 # Usage
 1. Run the script (for a detailed guide on how to do this, check **How To Run** above).
-2. You will be prompted to enter a string of text. The script will add up values of each letter corresponding to 3301's Gematria Primus table and tell you whether the end result is a prime number or not
+2. You will be prompted to enter a string of text. The script will add up values of each letter corresponding to 3301's Gematria Primus table and tell you whether the end result is a prime number or not.
 3. If you enter a character that isn't a part of the Gematria Primus (most commonly V), a warning will be shown, and the character will be substituted with the default value for U (3).
 4. To exit the program, type 1234. The style of Cicada OS has been implemented as a cute little reference.
 
@@ -55,8 +55,8 @@ Prime Checker: The result is not a prime number!
 ```
 
 # Explanation
-- The code includes a *is_prime(n):* function which checks if a given number *n* is prime.
-- *mappings* include a list of latin characters as seen from the [Gematria Primus](https://uncovering-cicada.fandom.com/wiki/Gematria_Primus?file=Testout.jpg)
+- The *is_prime(n):* function which checks if a given number *n* is prime.
+- *mappings* includes a list of latin characters as seen from the [Gematria Primus](https://uncovering-cicada.fandom.com/wiki/Gematria_Primus?file=Testout.jpg).
 - *process_input(user_input)* processes the user's input by summing the corresponding Gematria values for each character. This is called a **gematria sum**, I'm just not referring to it that way.
 
 If a character isn't in the *mappings* section, namely V, it's replaced with the value for **U (3)** - That is because these two letters are interchanged in the solved pages, similarly to letters like **C and K (which both have the value 13)** or **NG/ING (value 79)**.
